@@ -31,9 +31,9 @@ jobs:
       run: mvn -B package
     - uses: "actions/upload-artifact@v3"
       with:
-        name: "[DEV]-MMOCoreEXP"
+        name: "[DEV]-WyvernUtils"
         path: |
-          ./target/MMOCoreEXP-1.0.jar
+          ./target/WyvernUtils-1.0.jar
     - name: Discord webhook
       uses: tsickert/discord-webhook@v5.3.0
       with:
@@ -41,4 +41,4 @@ jobs:
         embed-color: "5763719"
         embed-description: |
             ${{ github.event.head_commit.message }}
-        filename: "./target/MMOCoreEXP-1.0.jar"
+        filename: "./target/WyvernUtils-1.0.jar"
