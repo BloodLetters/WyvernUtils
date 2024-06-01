@@ -1,0 +1,6 @@
+name: WyvernUtils
+version: '${project.version}'
+main: me.ashesh.WyvernUtils
+api-version: '1.20'
+authors: [Ashesh]
+description: Simple plugin untuk control/manage server WyvernWorld

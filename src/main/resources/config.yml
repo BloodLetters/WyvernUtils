@@ -1,0 +1,9 @@
+# module list
+# durability: Disable item durability
+
+module:
+  durability: true
+
+formula:
+  durabilty:
+    chance: 0.6 # Persen, 0.6 = 60%
