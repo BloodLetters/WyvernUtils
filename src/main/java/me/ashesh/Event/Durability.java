@@ -23,8 +23,8 @@ public class Durability implements Listener {
             if (random.nextDouble() < WyvernUtils.getInstance().getConfig().getDouble("formula.durability.chance")) {
                 e.setCancelled(true);
 
-//                dmeta.setDamage(damage + 5);
-//                e.getItem().setItemMeta(dmeta);
+                dmeta.setDamage(1);
+                e.getItem().setItemMeta(dmeta);
             }
         }
     }

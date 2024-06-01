@@ -1,5 +1,6 @@
 package me.ashesh;
 
+import me.ashesh.Command.General;
 import me.ashesh.Event.Durability;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,6 +14,7 @@ public final class WyvernUtils extends JavaPlugin {
         // Plugin startup logic
         saveDefaultConfig();
         this.getServer().getPluginManager().registerEvents(new Durability(), this);
+
     }
 
     @Override
